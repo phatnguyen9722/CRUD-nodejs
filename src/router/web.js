@@ -6,9 +6,9 @@ let router = express.Router();
 
 const initWebRoute = (app) => {
   router.get("/news",(req, res) => {
-    // res.send('Hello World') 
+    res.send('Hello World'); 
   });
-  router.get("/", homeController.getHomePage());
+  router.get("/", homeController.getHomePage);
 
   return app.use("/", router);
 };

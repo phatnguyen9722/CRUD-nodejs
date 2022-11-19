@@ -10,8 +10,6 @@ const port = process.env.PORT || 3000;
 
 app.use(cors())
 
-
-
 configViewEngine(app)
 initWebRoute(app)
 

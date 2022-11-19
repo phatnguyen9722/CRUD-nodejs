@@ -2,6 +2,6 @@ let getHomePage = (req, res) => {
     return res.render("index.ejs");
 }
 
-module.exports = [
+module.exports = {
     getHomePage
-]
+}
