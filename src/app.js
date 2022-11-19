@@ -2,6 +2,7 @@ import express from "express";
 import cors from 'cors';
 import configViewEngine from "./configs/viewEngine";
 import initWebRoute from "./router/web"
+import connection from "./configs/connectDB"
 require('dotenv').config()
 
 // Make Instance 
